@@ -1,0 +1,19 @@
+body{
+    font-family: 'Raleway',sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to right , rgb(0, 179, 255) , rgb(237, 49, 228));
+    text-align: center;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 20px;
+    margin-bottom: 50px;
+}
+input{
+    margin:10px 5px;
+}
+h2{
+    font-size: 25px;
+    letter-spacing: 7px;
+}
