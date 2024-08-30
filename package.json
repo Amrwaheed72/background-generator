@@ -1,0 +1,24 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "backgroundgenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":" browserify backgroundgenerator.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amrwaheed72/background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amrwaheed72/background-generator/issues"
+  },
+  "homepage": "https://github.com/Amrwaheed72/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

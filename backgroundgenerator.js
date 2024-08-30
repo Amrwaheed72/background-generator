@@ -1,5 +1,7 @@
-import { without } from 'lodash' ;
-console.log(without)
+var _ =require("lodash");
+var array = [1,2,3,4,5,6,7,8,9];
+
+console.log('asnwer:',_.without(array,3))
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
 let h3 = document.querySelector("h3");
